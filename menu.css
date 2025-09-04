@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ramabhadra', sans-serif;
+  background-color: #fff8f0;
+  color: #4b2e2e;
+}
+
+.menu-header {
+  text-align: center;
+  background-color: #8B4513;
+  color: white;
+  padding: 30px 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  
+}
+
+.menu-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #8B4513;
+}
+
+.menu-card p {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #5c3b3b;
+}
+
+.menu-card span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #4b2e2e;
+}
+
+
+.order-btn {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #8B4513;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #a0522d;
+}
+
+.menu-card img {
+  width: 100%;                /* Stretch to card width */
+  height: 200px;              /* Fixed height for all images */
+  object-fit: cover;          /* Crop to fill area without distortion */
+  border-radius: 10px 10px 0 0;
+}
+
+.rating {
+  margin: 8px 0;
+}
+
+.star {
+  font-size: 1.2rem;
+  color: #FFD700; /* Golden color */
+  padding: 0 1px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #8B4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #a0522d;
+}
+

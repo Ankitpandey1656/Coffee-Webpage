@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Chai</title>
+  <link rel="stylesheet" href="order.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="order-header">
+    <h1>☕ Chai Order</h1>
+    <p>Chai mangwao, ghar baithe peeyo!</p>
+    <p>Mausam accha hai, chai bhejwaan kya??</p>
+  </header>
+
+  <section class="order-form-section">
+    <form class="order-form">
+
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Mobile Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="chai">Select Chai Type:</label>
+      <select id="chai" name="chai" required>
+        <option value="">-- Select --</option>
+        <option value="Masala Chai">Masala Chai</option>
+        <option value="Adrak Chai">Adrak Chai</option>
+        <option value="Elaichi Chai">Elaichi Chai</option>
+        <option value="Chocolate Chai">Chocolate Chai</option>
+
+</select>
+
+</select>
+
+      </select>
+
+      <label for="quantity">Quantity (Cups):</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+  <a href="index.html" class="back-button">🏠 Back to Home</a>
+</body>
+</html>
